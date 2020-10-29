@@ -24,8 +24,7 @@ My GoFish project allows a human player, or user, to play GoFish against 3 AI/co
 3. Run the command "java GoFish" in the Shell and Enjoy! (NOTE: If the game freezes, press any number key and it should resume. Erase the number you pressed when you are prompted for which player to ask).
 
 ## Plans For the Future
-- Make a Graphical User Interface (GUI) for the game.
 - Enable Computer players to store and remember who asked for what and use this to play strategically.
-- Fix Game-Freeze and other bugs.
+- Fix Game-Freeze, Infinite Game Loop, and other bugs.
 
   

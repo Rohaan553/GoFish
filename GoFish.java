@@ -219,7 +219,7 @@ public class GoFish
 							currentPlayer.checkPair();
 							currentPlayer.pairMade();
 							Player.checkEmptyHand(currentPlayer, standardDeck);
-							slowPrinter("Cards remaining in the deck: " + standardDeck.deck.size() + ".");
+							slowPrinter("Number of Cards remaining in the deck: " + standardDeck.deck.size() + ".");
 						}
 						else
 						{
@@ -283,7 +283,7 @@ public class GoFish
 							currentPlayer.checkPair();
 							currentPlayer.pairMade();
 							Player.checkEmptyHand(currentPlayer, standardDeck);
-							slowPrinter("Cards remaining in the deck: " + standardDeck.deck.size() + ".");
+							slowPrinter("Number of Cards remaining in the deck: " + standardDeck.deck.size() + ".");
 						}
 						else
 						{
@@ -309,7 +309,7 @@ public class GoFish
 		ArrayList<Player> playerWithMaxPairs = new ArrayList<Player>(0);
 		List<Integer> results = Arrays.asList(playerOne.pairsPile.size(), playerTwo.pairsPile.size(), playerThree.pairsPile.size(), playerFour.pairsPile.size()); 
 		int max = Collections.max(results);
-		for(int i = 0; i < results.size()-1; i++)
+		for(int i = 0; i <= results.size()-1; i++)
 		{
 			if (results.get(i) == max && i == 0)
 				playerWithMaxPairs.add(playerOne);

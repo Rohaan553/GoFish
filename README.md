@@ -25,6 +25,6 @@ My GoFish project allows a human player, or user, to play GoFish against 3 AI/co
 
 ## Plans For the Future
 - Enable Computer players to store and remember who asked for what and use this to play strategically.
-- Fix Game-Freeze, Infinite Game Loop, and other bugs.
+- Fix Game-Freeze and other bugs.
 
   
